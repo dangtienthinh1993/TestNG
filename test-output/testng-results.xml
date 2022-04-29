@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8004" started-at="2022-04-22T15:11:34 ICT" finished-at="2022-04-22T15:11:42 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8004" started-at="2022-04-22T15:11:34 ICT" finished-at="2022-04-22T15:11:42 ICT">
+      <class name="tests.TestNG_Demo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.TestNG_Demo@103f852]" name="setUp" is-config="true" duration-ms="3227" started-at="2022-04-22T15:11:34 ICT" finished-at="2022-04-22T15:11:37 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="parabankLoginFailTest(java.lang.String,java.lang.String)[pri:0, instance:tests.TestNG_Demo@103f852]" name="parabankLoginFailTest" duration-ms="2033" started-at="2022-04-22T15:11:38 ICT" data-provider="test01" finished-at="2022-04-22T15:11:40 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usertest01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[u12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parabankLoginFailTest -->
+        <test-method status="PASS" signature="parabankLoginFailTest(java.lang.String,java.lang.String)[pri:0, instance:tests.TestNG_Demo@103f852]" name="parabankLoginFailTest" duration-ms="1314" started-at="2022-04-22T15:11:40 ICT" data-provider="test01" finished-at="2022-04-22T15:11:41 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usertest02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[u12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parabankLoginFailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestNG_Demo@103f852]" name="tearDown" is-config="true" duration-ms="719" started-at="2022-04-22T15:11:41 ICT" finished-at="2022-04-22T15:11:42 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestNG_Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

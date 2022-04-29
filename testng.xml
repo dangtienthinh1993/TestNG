@@ -1,0 +1,10 @@
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="tests.TestNG_Demo" />
+			<method>
+				<include name="parabankLoginFailTest"></include>
+			</method>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
